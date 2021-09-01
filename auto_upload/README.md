@@ -24,7 +24,7 @@ pwned.txt存放'存在漏洞的url'
 company.txt公司信息无误  
 pwned.txt漏洞url无误  
 将所有报告放在当前目录下的docxs文件夹下  
-company.txt、pwned.txt、报告应一一对应  
+company.txt里的公司、pwned.txt里的url、报告应一一对应  
 在当前文件夹下打开cmd运行exe文件  
 
 ## 
