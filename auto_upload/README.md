@@ -12,3 +12,8 @@ CNVD_UPLOAD.ini为程序配置，具体写法里面有详细写法
 company.txt存放公司名称  
 pwned.txt存放'存在漏洞的url'  
  
+## CNVD_AUTO.py
+注意修改里面和账号相关的东西,具体如下  
++ login()里的data
++ self.driver.find_element_by_id('email').send_keys("xxxx")
++ self.driver.find_element_by_id('password').send_keys("xxxx")
