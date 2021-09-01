@@ -128,8 +128,8 @@ class CNVD(object):
                     'Origin':'https://www.cnvd.org.cn',
                     'Referer':'https://www.cnvd.org.cn/user/login'
                     }
-
-        data = 'password=xxxx'
+        #填密码
+        data = 'password=xxxx' 
         response = session.post(url="https://www.cnvd.org.cn/user/doLogin/loginForm",data=data,headers=headers)
         response.encoding='utf-8'
 
@@ -142,7 +142,9 @@ class CNVD(object):
         while(1):
             try:
                 self.driver.get("https://www.cnvd.org.cn/user/doLogin/loginForm")
+                #账号
                 self.driver.find_element_by_id('email').send_keys("xxxx")
+                #密码
                 self.driver.find_element_by_id('password').send_keys("xxxx")
                 code = input("登录验证码：")
                 self.driver.find_element_by_id('myCode').send_keys(code)
