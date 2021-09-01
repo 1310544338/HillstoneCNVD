@@ -17,3 +17,6 @@ pwned.txt存放'存在漏洞的url'
 + login()里的data
 + self.driver.find_element_by_id('email').send_keys("xxxx")
 + self.driver.find_element_by_id('password').send_keys("xxxx")
+
+## 运行 
+在当前文件夹下打开cmd运行exe文件
