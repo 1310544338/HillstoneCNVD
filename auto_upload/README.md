@@ -20,5 +20,10 @@ pwned.txt存放'存在漏洞的url'
 + self.driver.find_element_by_id('password').send_keys("xxxx")
 
 ## 运行 
+配置ini文件  
+company.txt公司信息无误  
+pwned.txt漏洞url无误  
+将所有报告放在当前目录下的docxs文件夹下  
+company.txt、pwned.txt、报告应一一对应  
 在当前文件夹下打开cmd运行exe文件  
 (还不是完全自动，验证码还是要手动输，以后有能力可以看看用图像识别解决
