@@ -19,4 +19,5 @@ pwned.txt存放'存在漏洞的url'
 + self.driver.find_element_by_id('password').send_keys("xxxx")
 
 ## 运行 
-在当前文件夹下打开cmd运行exe文件
+在当前文件夹下打开cmd运行exe文件  
+(还不是完全自动，验证码还是要手动输，以后有能力可以看看用图像识别解决
